@@ -31,7 +31,7 @@ const Controls = ({
     padding: "0.75rem 1.5rem",
     cursor: "pointer",
     transition: "background-color 0.3s ease",
-    width: "350px",
+    width: "300px",
     maxWidth: "90%",
   };
 
@@ -41,8 +41,8 @@ const Controls = ({
     border: "2px solid #4db6ac",
     borderRadius: "12px",
     outline: "none",
-    width: "100%",
-    maxWidth: "400px",
+    width: "300px",
+    maxWidth: "90%",
     backgroundColor: "#e0f7fa",
     color: "#2c3e50",
     boxShadow: "0 0 8px rgba(0, 0, 0, 0.05)",

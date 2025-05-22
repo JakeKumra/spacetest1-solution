@@ -1,5 +1,4 @@
 import { useState, type CSSProperties } from "react";
-import "./App.css";
 
 import Controls from "./components/Controls";
 import Header from "./components/Header";
@@ -10,7 +9,7 @@ import {
   filterBySearchValue,
   getDisplayedSweets,
   sortByPriceAsc,
-} from "./utils/helper-functionts";
+} from "./utils/helperFunctions";
 
 export type Sweet = {
   name: string;
