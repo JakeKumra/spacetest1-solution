@@ -1,7 +1,7 @@
 import type { Sweet } from "../App";
 
 export const sortByPriceAsc = (sweets: Sweet[]): Sweet[] => {
-  return [...sweets].sort((a, b) => a.price - b.price);
+  return sweets.sort((a, b) => a.price - b.price);
 };
 
 export const filterBySearchValue = (
