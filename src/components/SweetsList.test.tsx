@@ -35,15 +35,4 @@ describe("SweetList", () => {
     const items = container.querySelectorAll("li");
     expect(items.length).toBe(2);
   });
-
-  it("renders the correct number of list items", () => {
-    const sweets = [
-      { name: "Bonbon", price: 1.25 },
-      { name: "Marshmallow", price: 1.75 },
-      { name: "Toffee", price: 2.0 },
-    ];
-
-    render(<SweetList sweets={sweets} />);
-    expect(screen.getAllByRole("listitem")).toHaveLength(3);
-  });
 });
